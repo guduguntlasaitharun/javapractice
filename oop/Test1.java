@@ -6,8 +6,8 @@ class Employee{
     }
     public int geteId(){
         return eId;
-    }public void seteName(String name){
-        this.eName=name;
+    }public void seteName(String eName){
+        this.eName=eName;
     }
     public String geteName(){
         return eName;
@@ -17,10 +17,15 @@ class Employee{
 public class Test1{
     public static void main(String[] args){
         Employee e1=new Employee();
+        Employee e2=new Employee();
         e1.seteId(101);
         e1.seteName("Sai");
         System.out.println(e1.geteId());
         System.out.println(e1.geteName());
+        e2.seteId(102);
+        e2.seteName("Tharun");
+        System.out.println(e2.geteId());
+        System.out.println(e2.geteName());
 
     }
 }
