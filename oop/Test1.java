@@ -1,4 +1,4 @@
-class Employee{
+class Test1{
     private int eId;
     private String eName;
     public void seteId(int id){
@@ -12,9 +12,6 @@ class Employee{
     public String geteName(){
         return eName;
     }
-
-}
-public class Test1{
     public static void main(String[] args){
         Employee e1=new Employee();
         Employee e2=new Employee();
